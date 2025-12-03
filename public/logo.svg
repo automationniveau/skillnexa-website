@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="48" viewBox="0 0 220 48" aria-label="SkillNexa logo" role="img">
+  <!-- Background intentionally omitted (transparent) -->
+  <defs>
+    <style>
+      .brand { fill: #0f2745; font-family: Inter, Arial, Helvetica, sans-serif; font-weight: 700; letter-spacing: 0.5px; }
+    </style>
+  </defs>
+  <text class="brand" x="2" y="34" font-size="36">SkillNexa</text>
+</svg>
+
+
