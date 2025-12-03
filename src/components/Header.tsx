@@ -66,16 +66,6 @@ export default function Header() {
           </div>
         </div>
 
-        {/* Auth Buttons */}
-        <div className="hidden md:flex items-center space-x-2 lg:space-x-4">
-          <Button variant="outline" size="sm" className="text-xs lg:text-sm">
-            Login
-          </Button>
-          <Button size="sm" className="text-xs lg:text-sm">
-            Get Started
-          </Button>
-        </div>
-
         {/* Mobile Menu Button */}
         <Button
           variant="ghost"
@@ -97,11 +87,8 @@ export default function Header() {
             <Link to="/courses" className="text-base font-medium hover:text-primary transition-colors" onClick={scrollToTop}>
               Courses
             </Link>
-            <Link to="/about" className="text-base font-medium hover:text-primary transition-colors" onClick={scrollToTop}>
-              About Us
-            </Link>
             <Link to="/instructor" className="text-base font-medium hover:text-primary transition-colors" onClick={scrollToTop}>
-              Become an Instructor
+              Internships / Careers
             </Link>
             <Link to="/blog" className="text-base font-medium hover:text-primary transition-colors" onClick={scrollToTop}>
               Blog
@@ -132,11 +119,8 @@ export default function Header() {
               <Link to="/courses" className="text-base font-medium hover:text-primary transition-colors" onClick={() => { scrollToTop(); setIsMenuOpen(false); }}>
                 Courses
               </Link>
-              <Link to="/about" className="text-base font-medium hover:text-primary transition-colors" onClick={() => { scrollToTop(); setIsMenuOpen(false); }}>
-                About Us
-              </Link>
               <Link to="/instructor" className="text-base font-medium hover:text-primary transition-colors" onClick={() => { scrollToTop(); setIsMenuOpen(false); }}>
-                Become an Instructor
+                Internships / Careers
               </Link>
               <Link to="/blog" className="text-base font-medium hover:text-primary transition-colors" onClick={() => { scrollToTop(); setIsMenuOpen(false); }}>
                 Blog
@@ -146,14 +130,7 @@ export default function Header() {
               </Link>
             </nav>
             
-            <div className="flex flex-col space-y-2 pt-4 border-t">
-              <Button variant="outline" size="sm" className="w-full">
-                Login
-              </Button>
-              <Button size="sm" className="w-full">
-                Get Started
-              </Button>
-            </div>
+
           </div>
         </div>
       )}
